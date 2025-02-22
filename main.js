@@ -67,3 +67,9 @@ function displayStoredData() {
         console.log("Retrieved Data:", parsedData);
     }
 }
+function close_pop() {
+    document.querySelector(".popup").style.display = "none";
+}
+window.onload = function() {
+    document.querySelector(".popup").style.display = "block";
+};

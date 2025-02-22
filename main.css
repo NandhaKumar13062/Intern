@@ -11,7 +11,10 @@
     background-color: #02243d;
     background-size: cover;
     height: 750px;   
-    background-position: fixed;
+}
+#main{
+    width: 1519px;
+
 }
 ul{
     list-style: none;  
@@ -69,6 +72,7 @@ a{
     margin-top: 700px;
     margin-left: 200px;
     margin-bottom: 10px;
+    width: 1000px;
 }
 .content-1,.content-2{
     height:650px;
@@ -324,4 +328,46 @@ hr{
     top:200px;
     width:600px;
     left:30px;
+}
+.popup-content {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    left: 550px;
+    top: 180px;
+    justify-items: center;
+    width: 400px;
+    height:480px;
+    background-color: aliceblue;
+    padding: 10px;
+    
+    
+}
+.popup{
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0,0.7);
+position: fixed;
+z-index: 9999;
+top: 0;
+left: 0;
+}
+#cross{
+    position: relative;
+    top:20px;
+    left:380px;
+}
+.download{
+     background-color: aliceblue;
+     padding: 10px;
+    
+}
+#down_but{
+    background-color: aquamarine;
+     position: relative;
+     left: 130px;
+     padding: 7px;
+}
+#cross:hover{
+    cursor:grab;
 }
